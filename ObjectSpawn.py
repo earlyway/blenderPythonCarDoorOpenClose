@@ -16,7 +16,6 @@ def run_10_times():
     return 0.05
 
 
-
 def unreg():
     if bpy.app.timers.is_registered(run_10_times): #run_10_times 함수가 register 된것이 True라면
         print("unregg")		#system console 에 print.
